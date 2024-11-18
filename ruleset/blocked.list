@@ -58,7 +58,6 @@ DOMAIN-KEYWORD,twitter
 
 # PayPal
 USER-AGENT,PayPal*
-DOMAIN-KEYWORD,paypal
 
 # Podcast
 DOMAIN-SUFFIX,buzzsprout.com
