@@ -1,15 +1,101 @@
-# Alibaba
-DOMAIN-KEYWORD,alipay
+# ==========================
+# China Mainland - Direct
+# ==========================
 
-# Baidu
-DOMAIN-SUFFIX,baidu.com
+# --------------------------------------------------
+# Custom Group
+# --------------------------------------------------
 
-# Custom
+# My Blog
 DOMAIN-SUFFIX,jrtx.tech
-
-# Tencent
-USER-AGENT,WeChat*
-DOMAIN-SUFFIX,tenpay.com
 
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
+
+# --------------------------------------------------
+# Alibaba Group
+# --------------------------------------------------
+
+# Core
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,alibabagroup.com
+
+# Alibaba Cloud (Aliyun)
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,aliyun-inc.com
+DOMAIN-SUFFIX,alicloud.com
+DOMAIN-SUFFIX,alipan.com
+
+# CDN / OSS
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncdn.com
+DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-shanghai.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-beijing.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-shenzhen.aliyuncs.com
+DOMAIN-SUFFIX,oss-cn-guangzhou.aliyuncs.com
+
+# Taobao / Tmall
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+
+# DingTalk
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,dingtalkapps.com
+
+# Youku / UC
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ucweb.com
+DOMAIN-SUFFIX,uc.cn
+
+
+# --------------------------------------------------
+# Tencent Group
+# --------------------------------------------------
+
+# Core
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent-cloud.com
+
+# Tencent Cloud
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,tencentyun.com
+
+# CDN / COS
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,file.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-beijing.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-shanghai.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-guangzhou.myqcloud.com
+
+# WeChat / Weixin
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wechat.com
+
+# QQ / IM
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,im.qq.com
+
+# Tencent Video / Music
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,y.qq.com
+
+# Games
+DOMAIN-SUFFIX,game.qq.com
+DOMAIN-SUFFIX,ieg.com
+DOMAIN-SUFFIX,riotgames.com.cn
+
+# Others
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,cloud.tencent.com
+

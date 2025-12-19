@@ -1,77 +1,56 @@
-# AIGC
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,poe.com
-
-# Blog
+# ==========================
+# Custom
+# ==========================
 DOMAIN-SUFFIX,yinwang.org
-
-# China Digital Times
-DOMAIN-SUFFIX,chinadigitaltimes.net
-
-# Facebook
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-KEYWORD,facebook
-
-# Github
-DOMAIN-KEYWORD,github
-
-# Google
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,blogspot.com
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,gmail
-USER-AGENT,*youtube*
-USER-AGENT,*YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,ggpht.com
-
-# Imgur
-DOMAIN-SUFFIX,imgur.com
-
-# Instagram
-DOMAIN-KEYWORD,instagram
-
-# Medium
-DOMAIN-SUFFIX,medium.com
-
-# Microsoft
-DOMAIN-SUFFIX,bing.com
-
-# OKX 
-DOMAIN-SUFFIX,okx.com
-
-# POE
-DOMAIN-SUFFIX,poe.com
-
-# Twitter
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-KEYWORD,twitter
-
-# PayPal
-USER-AGENT,PayPal*
-
-# Podcast
-DOMAIN-SUFFIX,buzzsprout.com
-
-# PornHub
-DOMAIN-KEYWORD,pornhub
-DOMAIN-KEYWORD,phncdn
-DOMAIN-KEYWORD,trafficjunky
-
-# Steam
-DOMAIN-KEYWORD,steam
-
-# V2EX
 DOMAIN-KEYWORD,v2ex
 
-# Wikipedia
-DOMAIN-KEYWORD,wiki
+# ==========================
+# Social & Communication
+# ==========================
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,ok.ru
+
+# ==========================
+# Adult / NSFW
+# ==========================
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,redtube.com
+DOMAIN-SUFFIX,brazzers.com
+
+# ==========================
+# Knowledge / Info
+# ==========================
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wiktionary.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wikidata.org
+
+# ==========================
+# Cloud / Tools
+# ==========================
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,slideshare.net
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,gitlab.com
+
