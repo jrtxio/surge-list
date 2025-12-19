@@ -38,7 +38,7 @@ DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
 
-# -------- Ads / Tracking (部分 Google 服务依赖) --------
+# -------- Ads / Tracking --------
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,doubleclick.net
