@@ -1,98 +1,34 @@
 # =====================================
-# Google Services
+# Google / Gemini (Force Proxy)
 # =====================================
 
-# --------------------------------------------------
-# Google AI / Gemini (STRICT Proxy, SAME EXIT)
-# --------------------------------------------------
+# Gemini
+DOMAIN,gemini.google.com
 
-# Gemini Product
-DOMAIN-SUFFIX,gemini.google.com
+# Core Google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ggpht.com
 
-# Generative AI Backend
-DOMAIN-SUFFIX,generativeai.googleapis.com
-DOMAIN-SUFFIX,ai.google.dev
-
-# Identity / Session (AI related)
+# Auth / Account
 DOMAIN,accounts.google.com
 DOMAIN,myaccount.google.com
 DOMAIN,signin.google.com
 
-# Risk Control / CAPTCHA (CRITICAL)
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,recaptcha.google.com
-
-# Streaming / Session Transport
-DOMAIN-SUFFIX,googleusercontent.com
-
-# --------------------------------------------------
-# Google Core (Must follow same proxy as AI)
-# --------------------------------------------------
-
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,google.co
-DOMAIN-SUFFIX,google.com.hk
-DOMAIN-SUFFIX,google.com.jp
-DOMAIN-SUFFIX,google.com.tw
-DOMAIN-SUFFIX,google.co.jp
-DOMAIN-SUFFIX,google.co.uk
-DOMAIN-SUFFIX,google.de
-DOMAIN-SUFFIX,google.fr
-
-# --------------------------------------------------
-# Google APIs
-# --------------------------------------------------
-
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-
-# --------------------------------------------------
-# Static / CDN (Keep route consistent)
-# --------------------------------------------------
-
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,ggpht.com
-
-# --------------------------------------------------
-# Search / Web
-# --------------------------------------------------
-
+# Web / API
+DOMAIN,apis.google.com
 DOMAIN,www.google.com
 DOMAIN,encrypted.google.com
 
-# --------------------------------------------------
-# YouTube
-# --------------------------------------------------
+# WebSocket / Realtime
+DOMAIN-SUFFIX,clients.google.com
+DOMAIN-SUFFIX,clients1.google.com
+DOMAIN-SUFFIX,clients2.google.com
 
+# YouTube（可选）
 DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,googlevideo.com
-
-# --------------------------------------------------
-# Ads / Tracking
-# --------------------------------------------------
-
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,doubleclick.net
-
-# --------------------------------------------------
-# Android / Play / System
-# --------------------------------------------------
-
-DOMAIN-SUFFIX,android.com
-DOMAIN,play.google.com
-DOMAIN-SUFFIX,play.googleapis.com
-DOMAIN-SUFFIX,android.googleapis.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-
-# --------------------------------------------------
-# Chrome / Chromium / Update
-# --------------------------------------------------
-
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,clients2.google.com
 
