@@ -12,9 +12,17 @@ DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,twitter.com
+
+# ---- X / Twitter ----
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,pbs.twimg.com
+DOMAIN-SUFFIX,video.twimg.com
+DOMAIN-SUFFIX,ton.twimg.com
+DOMAIN-SUFFIX,abs.twimg.com
+DOMAIN-SUFFIX,api.twitter.com
+
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,snapchat.com
