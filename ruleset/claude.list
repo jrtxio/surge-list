@@ -18,3 +18,13 @@ DOMAIN-SUFFIX,anthropiccdn.com
 # ---- Static / CDN ----
 DOMAIN,*.anthropic-cdn.com
 
+# ---- Monitoring ----
+# Used by Anthropic for observability
+DOMAIN-SUFFIX,honeycomb.io
+
+# ---- Third-party Services ----
+# Used for customer support and messaging
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,intercomassets.com
+

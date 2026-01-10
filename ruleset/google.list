@@ -16,12 +16,6 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,withgoogle.com
 
-# ---- Third-party Services ----
-# Used by Google Gemini for sidebar content
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,intercomassets.com
-
 # ---- Auth / Account ----
 DOMAIN,accounts.google.com
 DOMAIN,myaccount.google.com
