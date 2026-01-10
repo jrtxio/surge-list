@@ -2,52 +2,86 @@
 # China Mainland - Direct
 # ==========================
 
-# ---- Custom Group ----
-
-# MyService
+# ---- Custom Services ----
+# My Own Services
 DOMAIN-SUFFIX,jrtx.site
 DOMAIN-SUFFIX,jrtx.tech
 
-# OpenRouter
-DOMAIN-SUFFIX,openrouter.ai
+# ---- Tencent Group ----
 
-# ---- Immersive Translate (ONLY self & static) ----
+# WeChat / Weixin Core
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wximg.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,mmbiz.qpic.cn
+DOMAIN-SUFFIX,mmbizlog.qpic.cn
 
-# Core
-DOMAIN-SUFFIX,immersivetranslate.com
-DOMAIN-SUFFIX,immersive-translate.com
-DOMAIN-SUFFIX,immersivetranslate.cn
+# WeChat Mini Program
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,mp.weixin.qq.com
+DOMAIN-SUFFIX,mini.weixin.qq.com
 
-# Config / Meta
-DOMAIN-SUFFIX,api.immersivetranslate.com
-DOMAIN-SUFFIX,config.immersivetranslate.com
+# WeChat Pay
+DOMAIN-SUFFIX,qqpay.qq.com
+DOMAIN-SUFFIX,pay.weixin.qq.com
+DOMAIN-SUFFIX,wxpay.wx.com
+DOMAIN-SUFFIX,wxpayapp.com
+DOMAIN-SUFFIX,wxpaybs.weixin.qq.com
 
-# Static assets / fonts (UI stability)
-DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,unpkg.com
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflareinsights.com
+# WeCom / 企业微信
+DOMAIN-SUFFIX,wecom.cn
+DOMAIN-SUFFIX,work.weixin.qq.com
+DOMAIN-SUFFIX,wxwork.weixin.qq.com
+DOMAIN-SUFFIX,open.work.weixin.qq.com
 
-# Browser extension metadata
-DOMAIN-SUFFIX,addons.mozilla.org
-DOMAIN-SUFFIX,clients2.google.com
-DOMAIN-SUFFIX,clients4.google.com
+# QQ / IM
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,im.qq.com
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,foxmail.com
+
+# Tencent Video / Music
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,video.qq.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,qqmusic.com
+
+# Tencent Games
+DOMAIN-SUFFIX,game.qq.com
+DOMAIN-SUFFIX,ieg.com
+DOMAIN-SUFFIX,riotgames.com.cn
+
+# Tencent Cloud
+DOMAIN-SUFFIX,tencent-cloud.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,tencentyun.com
+DOMAIN-SUFFIX,cos.ap-beijing.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-shanghai.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-guangzhou.myqcloud.com
+
+# Tencent CDN
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,file.myqcloud.com
 
 # ---- Alibaba Group ----
 
-# Core
+# Alibaba Core
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,alibabagroup.com
 
-# Alibaba Cloud (Aliyun)
+# Alibaba Cloud
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,aliyun-inc.com
 DOMAIN-SUFFIX,alicloud.com
 DOMAIN-SUFFIX,alipan.com
 
-# CDN / OSS
+# Alibaba CDN / OSS
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyuncdn.com
 DOMAIN-SUFFIX,oss-cn-hangzhou.aliyuncs.com
@@ -61,8 +95,14 @@ DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tmall.hk
 DOMAIN-SUFFIX,1688.com
+
+# Alipay / Payment
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipaylog.com
+DOMAIN-SUFFIX,alipaycdn.com
+DOMAIN-SUFFIX,alipaydev.com
 
 # DingTalk
 DOMAIN-SUFFIX,dingtalk.com
@@ -73,51 +113,96 @@ DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ucweb.com
 DOMAIN-SUFFIX,uc.cn
 
-# ---- Tencent Group ----
+# ---- JD Group ----
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buy.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jdcdn.com
+DOMAIN-SUFFIX,jdimg.com
+DOMAIN-SUFFIX,jdpay.com
 
-# Tencent Core
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,tencent-cloud.com
+# ---- Baidu Group ----
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidu.cn
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,baiducontent.com
+DOMAIN-SUFFIX,pcs.baidu.com
+DOMAIN-SUFFIX,yun.baidu.com
+DOMAIN-SUFFIX,haokan.baidu.com
+DOMAIN-SUFFIX,tieba.baidu.com
 
-# Tencent Cloud
-DOMAIN-SUFFIX,qcloud.com
-DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,tencentyun.com
+# ---- Meituan Group ----
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,meituanimg.com
+DOMAIN-SUFFIX,imeituan.com
 
-# CDN / Static / COS
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,file.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-beijing.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-shanghai.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-guangzhou.myqcloud.com
+# ---- Pinduoduo ----
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pddimg.com
+DOMAIN-SUFFIX,pddcdn.com
 
-# WeChat / Weixin
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wechat.com
+# ---- NetEase Group ----
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,yeah.net
+DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,mail.163.com
 
-# WeCom / 企业微信
-DOMAIN-SUFFIX,wecom.cn
-DOMAIN-SUFFIX,work.weixin.qq.com
-DOMAIN-SUFFIX,wxwork.weixin.qq.com
-DOMAIN-SUFFIX,open.work.weixin.qq.com
+# ---- ByteDance Group ----
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,xiaohongshu.com
 
-# QQ / IM
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,im.qq.com
+# ---- Common Services ----
 
-# Video / Music
-DOMAIN-SUFFIX,v.qq.com
-DOMAIN-SUFFIX,video.qq.com
-DOMAIN-SUFFIX,y.qq.com
+# E-commerce
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,gome.com.cn
 
-# Games
-DOMAIN-SUFFIX,game.qq.com
-DOMAIN-SUFFIX,ieg.com
-DOMAIN-SUFFIX,riotgames.com.cn
+# Travel
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,fliggy.com
+DOMAIN-SUFFIX,qunar.com
+DOMAIN-SUFFIX,ly.com
 
-# Finance / Others
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,cloud.tencent.com
+# Local Life
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,koubei.com
 
+# Education
+DOMAIN-SUFFIX,zhihuishu.com
+DOMAIN-SUFFIX,koolearn.com
+DOMAIN-SUFFIX,tencentclass.com
+
+# ---- Common CDN & Infrastructure ----
+
+# Domestic CDN
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN-SUFFIX,fastly.net
+
+# Cloud Services
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+
+# ---- Browser Extensions ----
+DOMAIN-SUFFIX,addons.mozilla.org
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,clients4.google.com
+
+# ---- Immersive Translate ----
+DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN-SUFFIX,immersive-translate.com
+DOMAIN-SUFFIX,immersivetranslate.cn
+DOMAIN-SUFFIX,api.immersivetranslate.com
+DOMAIN-SUFFIX,config.immersivetranslate.com
